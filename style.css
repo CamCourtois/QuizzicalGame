@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.start-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Karla, sans-serif;
+    font-size: 25px;
+    color: #293264;
+    /* text-shadow: 1px 1px 3px whitesmoke; */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/079/original/abstract-white-background-with-organic-shapes-abstract-design-background-with-white-color-and-pastel-color-organic-shapes-background-art-background-with-liquid-element-and-blobs-free-vector.jpg");
+     background-size: cover;
+}
+
+.start-menu > button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 69px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #4D5B9E;
+    cursor: pointer
+}
+
+.difficulty-dropdown-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #293264; */
+    border-radius: 15px;
+    padding: 17px 12px;
+    background-color: #4D5B9E;
+    margin-bottom: 7px
+}
+
+.difficulty-dropdown-container > label{
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white
+}
+
+.diff-dropdown-box, .category-dropdown-box{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0px;
+    padding: 8px;
+    color: #4D5B9E
+}
+
+
+.loading-text{
+    margin: 0px;
+    padding: 0px
+}
+
+.in-game-screen{
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/273/912/original/abstract-organic-shape-hand-drawn-colorful-minimal-background-vector.jpg"); */
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.questions-container{
+    /* background: linear-gradient(white, lightgray); */
+    height: 100vh;
+    padding: 25px;
+    
+}
+
+.questions-container > button{
+    text-align: center
+}
+
+.question-block{
+    padding: 8px;
+    border-bottom: 2px solid #DBDEF0;
+}
+
+.trivia-question{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #293264;
+    margin: 15px 0px;
+    text-shadow: 1px 1px 3px white
+}
+
+.question-form{
+    display: flex;
+    margin-bottom: 10px
+}
+
+.button-radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  display: none; /* Hide the default radio button */
+}
+
+label, .start-menu-labels {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: none;
+  color: #4D5B9E;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0.7px solid #4D5B9E;
+  border-radius: 7px;
+  max-width: 250px;
+  /* text-shadow: 1px 1px 2px white; */
+  
+  /* transition: background-color 0.3s; */
+}
+
+difficulty-dropdown-container > label{
+    text-shadow: none;
+}
+
+input:disabled {
+  /* Your styles for disabled radio buttons */
+  opacity: 0.5;
+  color: grey;
+  
+  /* Add any other styles you want */
+}
+
+.checked{
+    background-color: #D6DBF5
+}
+
+.correct{
+    background-color: #94D7A2
+}
+
+.incorrect{
+    background-color: #F8BCBC
+}
+
+
+
+.check-answers-button, .play-again-button{
+    border: none;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #4D5B9E;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer
+}
+
+.check-answers-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.play-again-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-again-container > p{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bold;
+    color: #293264;
+    margin-left: auto
+}
+
+.play-again-button{
+    margin: 20px
+}
